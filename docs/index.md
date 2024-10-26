@@ -1,1 +1,1 @@
-# This is Go.
+# This is Go Tsuruoka's webpage
