@@ -1,5 +1,5 @@
 site_name: Go Tsuruoka's webpage
-
+site_url: https://l3tsg0.github.io/
 # ナビゲーション設定を追加
 nav:
   - Home: index.md
