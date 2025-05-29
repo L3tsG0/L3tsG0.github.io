@@ -1,5 +1,11 @@
 site_name: Go Tsuruoka's webpage
 
+# ナビゲーション設定を追加
+nav:
+  - Home: index.md
+  - Slides:
+    - CSS2024: slides/css2024.md
+
 theme:
   name: material
   features:
@@ -45,15 +51,16 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 plugins:
-  - sitemap
+  # sitemap は MkDocs 1.6 で内蔵されているので削除
   - awesome-pages
   - exclude:
       regex:
         - ^(?!(.*/)?assets/).*\.(?!(.*\.)?md|(.*\.)?svg|(.*\.)?png|(.*\.)?gif|(.*\.)?jpg).*$
         - ^(.*/)?[^.]*$
-  - macros:
-      include_yaml:
-        - autoware_interfaces: yaml/autoware-interfaces.yaml
+  # autoware-interfaces.yaml が存在しない場合はコメントアウト
+  # - macros:
+  #     include_yaml:
+  #       - autoware_interfaces: yaml/autoware-interfaces.yaml
   - mkdocs-video
   - same-dir
   - search
@@ -72,8 +79,9 @@ markdown_extensions:
       generic: true
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      # 修正: 新しい emoji 設定
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.snippets:
       auto_append:
