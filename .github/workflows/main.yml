@@ -25,16 +25,18 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install --upgrade pip
-      - run: pip install --upgrade markdown
-      - run: pip install --upgrade mkdocs
-      - run: pip install mkdocs-material
-      - run: pip install fontawesome-markdown
-      - run: pip install mdx-truly-sane-lists
-      - run: pip install mkdocs-awesome-pages-plugin
-      - run: pip install mkdocs-exclude
-      - run: pip install mkdocs-macros-plugin
-      - run: pip install mkdocs-video
-      - run: pip install mkdocs-same-dir
-      - run: pip install pymdown-extensions
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mkdocs
+          pip install mkdocs-material
+          pip install mkdocs-sitemap-plugin
+          pip install mkdocs-awesome-pages-plugin
+          pip install mkdocs-exclude
+          pip install mkdocs-macros-plugin
+          pip install mkdocs-video
+          pip install mkdocs-same-dir
+          pip install pymdown-extensions
+          pip install fontawesome-markdown
+          pip install mdx-truly-sane-lists
       - run: mkdocs gh-deploy --force
