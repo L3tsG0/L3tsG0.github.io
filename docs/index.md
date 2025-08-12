@@ -13,15 +13,16 @@
 
 - **[CSS'2024] 鶴岡 豪**，佐藤 貴海，Qi Alfred Chen，野本 一輝，小林 竜之輔，田中 優奈，森 達哉，“ヘッドライトの反射光を悪用する敵対的パッチ攻撃の提案と評価” (<span style="color: red">CSS学生論文賞</span>) [[Slides](slides/css2024.md)]
 
-### Poster
+### Posters/Demos
 
+- [**VehicleSec'25**] **Go Tsuruoka**, Kazuki Nomoto, Yuna Tanaka, Ryunosuke Kobayashi, Tatsuya Mori [A Practical Guide to Building a White-Box End-to-End Autonomous Driving Testbed with Open-Source AD and CAN-Based Drive-By-Wire Vehicle](https://www.usenix.org/conference/vehiclesec25/presentation/tsuruoka-demo) (<span style="color: red">Best Demo Award</span>)
 - [**NDSS'24] Go Tsuruoka**, Takami Sato, Qi Alfred Chen, Kazuki Nomoto, Ryunosuke Kobayashi, Yuna Tanaka, Tatsuya Mori Poster: Adversarial Retroreflective Patches: A Novel Stealthy Attack on Traffic Sign Recognition at Night [[Poster](https://www.ndss-symposium.org/wp-content/uploads/ndss24-posters-36.pdf)]
 
 ### Slides
 
 
 ### Awards and Honors
-
+- Best Demo Award (VehcileSec'25)
 - 基幹理工学部長賞 (GPA上位2位) 2024
 - 情報通信学科賞 (学部期間中の査読付き論文提出) 2024
 - 副専攻（数学応用数理） (所定の単位を18単位以上習得)
