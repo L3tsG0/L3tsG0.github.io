@@ -1,5 +1,7 @@
 # Go Tsuruoka
 
+[日本語](ja/)
+
 2nd-year Ph.D. student @ Waseda University, [Mori Lab](https://nsl.cs.waseda.ac.jp/)
 
 Research areas: Autonomous Driving Security, Machine Learning Security, Sensor Security
