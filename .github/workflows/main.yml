@@ -1,8 +1,8 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
-      - master 
+      - master
       - main
 permissions:
   contents: write
@@ -15,10 +15,10 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v6
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+          enable-cache: true
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
@@ -26,17 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install mkdocs
-          pip install mkdocs-material
-
-          pip install mkdocs-awesome-pages-plugin
-          pip install mkdocs-exclude
-          pip install mkdocs-macros-plugin
-          pip install mkdocs-video
-          pip install mkdocs-same-dir
-          pip install pymdown-extensions
-          pip install fontawesome-markdown
-          pip install mdx-truly-sane-lists
-      - run: mkdocs gh-deploy --force
+        run: uv sync --locked
+      - run: uv run mkdocs gh-deploy --force
