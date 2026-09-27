@@ -6,6 +6,8 @@
 
 Research areas: Autonomous Driving Security, Machine Learning Security, Sensor Security
 
+:fontawesome-brands-linkedin: [LinkedIn](https://www.linkedin.com/in/go-tsuruoka-a47a0228b/) · :fontawesome-brands-google-scholar: [Google Scholar](https://scholar.google.com/citations?user=T_VJlXwAAAAJ) · :fontawesome-brands-github: [GitHub](https://github.com/L3tsG0)
+
 ### Selected Publications (international)
 
 - [ACSAC'26] **Go Tsuruoka**, Takami Sato, Qi Alfred Chen, Kazuki Nomoto, Ryunosuke Kobayashi, Yuna Tanaka, Tatsuya Mori. Trapped by Their Own Light: Deployable and Stealth Retroreflective Patch Attacks on Traffic Sign Recognition Systems (Acceptance Rate: 19.3%)
