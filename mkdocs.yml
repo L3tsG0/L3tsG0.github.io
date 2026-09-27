@@ -11,7 +11,6 @@ theme:
   features:
     - navigation.expand
     - navigation.indexes
-    - navigation.instant
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
@@ -48,6 +47,22 @@ plugins:
   - mkdocs-video
   - same-dir
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+          nav_translations:
+            Home: ホーム
+            Slides: スライド
 
 markdown_extensions:
   - abbr

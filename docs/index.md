@@ -1,8 +1,8 @@
-# 鶴岡 豪 Go Tsuruoka
+# Go Tsuruoka
 
-博士2年 @早稲田大学 [森研究室](https://nsl.cs.waseda.ac.jp/)
+2nd-year Ph.D. student @ Waseda University, [Mori Lab](https://nsl.cs.waseda.ac.jp/)
 
-研究領域: 自動運転セキュリティ，機械学習セキュリティ，センサーセキュリティ
+Research areas: Autonomous Driving Security, Machine Learning Security, Sensor Security
 
 ### Selected Publications (international)
 
@@ -12,14 +12,14 @@
 - [ASIACCS'25] Yuna Tanaka, Kazuki Nomoto, Ryunosuke Kobayashi, **Go Tsuruoka**, Tatsuya Mori. Adversarial Fog: Exploiting the Vulnerabilities of LiDAR Point Cloud Preprocessing Filters (<span style="color: red">Best Paper Award</span>)
 - [VehicleSec'24] **Go Tsuruoka**, Takami Sato, Qi Alfred Chen, Kazuki Nomoto, Ryunosuke Kobayashi, Yuna Tanaka, Tatsuya Mori. WIP: Adversarial Retroreflective Patches: A Novel Stealthy Attack on Traffic Sign Recognition at Night (Acceptance Rate: 43.1%) [[Paper](https://www.ndss-symposium.org/wp-content/uploads/vehiclesec2024-25-paper.pdf)]
 
-### Selected Publications (domestic)
+### Selected Publications (domestic, in Japanese)
 
-- [SCIS'26] **鶴岡 豪**，佐藤 貴海，飯島 涼，野本 一輝，田中 優奈，森 達哉，"次世代自動運転は安全か？：Occupancy Predictionに対する攻撃提案および評価とそのシステムレベルの影響評価"
-- [CSS'25] **鶴岡 豪**，佐藤 貴海，Qi Alfred Chen，野本 一輝，小林 竜之輔，田中 優奈，森 達哉，"ヘッドライト光の反射を悪用した標識認識への攻撃: 商用車両を用いた影響評価と対策の提案" (<span style="color: red">CSS優秀論文賞</span>)
-- [CSS'25] 海老根 佑雅，野本 一輝，**鶴岡 豪**，田中 優奈，森 達哉，"敵対的映像攻撃が自律飛行ドローンの位置推定・制御に及ぼす影響の評価" (<span style="color: red">CSS学生論文賞</span>)
-- [CSS'24] 小林 竜之輔，野本 一輝，田中 優奈，**鶴岡 豪**，森 達哉，"LiDAR点群の物理的消失による誤検出誘発攻撃と防御" (<span style="color: red">CSS学生論文賞</span>)
-- [CSS'24] 田中 優奈，野本 一輝，小林 竜之輔，**鶴岡 豪**，森 達哉，"自動運転システムのLiDAR点群前処理フィルタに対する人工霧を用いた敵対的攻撃" (<span style="color: red">CSS学生論文賞</span>)
-- [CSS'24] **鶴岡 豪**，佐藤 貴海，Qi Alfred Chen，野本 一輝，小林 竜之輔，田中 優奈，森 達哉，"ヘッドライトの反射光を悪用する敵対的パッチ攻撃の提案と評価" (<span style="color: red">CSS学生論文賞</span>) [[Slides](slides/css2024.md)]
+- [SCIS'26] **Go Tsuruoka**, Takami Sato, Ryo Iijima, Kazuki Nomoto, Yuna Tanaka, Tatsuya Mori. "Is Next-Generation Autonomous Driving Secure? Attacks on Occupancy Prediction and Their System-Level Impact"
+- [CSS'25] **Go Tsuruoka**, Takami Sato, Qi Alfred Chen, Kazuki Nomoto, Ryunosuke Kobayashi, Yuna Tanaka, Tatsuya Mori. "Attacks on Traffic Sign Recognition Exploiting Reflected Headlight: Impact Evaluation on Commercial Vehicles and Countermeasures" (<span style="color: red">CSS Outstanding Paper Award</span>)
+- [CSS'25] Yuga Ebine, Kazuki Nomoto, **Go Tsuruoka**, Yuna Tanaka, Tatsuya Mori. "Evaluating the Impact of Adversarial Video Attacks on Localization and Control of Autonomous Drones" (<span style="color: red">CSS Student Paper Award</span>)
+- [CSS'24] Ryunosuke Kobayashi, Kazuki Nomoto, Yuna Tanaka, **Go Tsuruoka**, Tatsuya Mori. "Misdetection-Inducing Attacks via Physical Removal of LiDAR Point Clouds and Their Defense" (<span style="color: red">CSS Student Paper Award</span>)
+- [CSS'24] Yuna Tanaka, Kazuki Nomoto, Ryunosuke Kobayashi, **Go Tsuruoka**, Tatsuya Mori. "Adversarial Attacks Using Artificial Fog against LiDAR Point Cloud Preprocessing Filters in Autonomous Driving Systems" (<span style="color: red">CSS Student Paper Award</span>)
+- [CSS'24] **Go Tsuruoka**, Takami Sato, Qi Alfred Chen, Kazuki Nomoto, Ryunosuke Kobayashi, Yuna Tanaka, Tatsuya Mori. "Adversarial Patch Attacks Exploiting Reflected Headlight: Proposal and Evaluation" (<span style="color: red">CSS Student Paper Award</span>) [[Slides](slides/css2024.md)]
 
 ### Posters/Demos
 
@@ -28,20 +28,20 @@
 
 ### Awards and Honors
 
-- CSS優秀論文賞 (CSS'25)
+- CSS Outstanding Paper Award (CSS'25)
 - Best Paper Award (ASIACCS'25)
 - Best Demo Award (VehicleSec'25)
-- CSS学生論文賞 (CSS'24)
-- 基幹理工学部長賞 (GPA上位2位) 2024
-- 情報通信学科賞 (学部期間中の査読付き論文提出) 2024
-- 副専攻（数学応用数理） (所定の単位を18単位以上習得)
+- CSS Student Paper Award (CSS'24)
+- Dean's Award, School of Fundamental Science and Engineering, Waseda University (top 2 GPA), 2024
+- Department Award, Department of Communications and Computer Engineering (for a peer-reviewed paper submitted during undergraduate studies), 2024
+- Minor in Mathematics and Applied Mathematics
 
 ### Education
 
-- 2025年4月 - 現在: 早稲田大学 基幹理工学研究科 情報理工・情報通信専攻 博士後期課程 森研究室
-- 2024年4月 - 2025年3月: 早稲田大学 基幹理工学研究科 情報理工・情報通信専攻 修士課程（早期修了） 森研究室
-- 2020年4月 - 2024年3月: 早稲田大学 基幹理工学部 情報通信学科
+- Apr. 2025 - Present: Ph.D. Program, Department of Computer Science and Communications Engineering, Graduate School of Fundamental Science and Engineering, Waseda University (Mori Lab)
+- Apr. 2024 - Mar. 2025: Master's Program (early completion), Department of Computer Science and Communications Engineering, Graduate School of Fundamental Science and Engineering, Waseda University (Mori Lab)
+- Apr. 2020 - Mar. 2024: B.Eng., Department of Communications and Computer Engineering, School of Fundamental Science and Engineering, Waseda University
 
-### misc
+### Misc
 
-- セキュリティキャンプ2023 Dトラック (AIセキュリティ) 修了生
+- Security Camp 2023, Track D (AI Security), completed
