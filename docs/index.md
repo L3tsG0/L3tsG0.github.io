@@ -1,6 +1,6 @@
 # Go Tsuruoka
 
-[日本語](ja/)
+[日本語版はこちら](ja/)
 
 2nd-year Ph.D. student @ Waseda University, [Mori Lab](https://nsl.cs.waseda.ac.jp/)
 
