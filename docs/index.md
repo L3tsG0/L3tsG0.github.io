@@ -1,4 +1,4 @@
-# Go Tsuruoka
+# Go Tsuruoka 鶴岡 豪
 
 [日本語版はこちら](ja/)
 
